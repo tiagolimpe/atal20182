@@ -1,5 +1,5 @@
 # Esse metodo recebe uma lista com as matriculas dos alunos
-# e retorna essa lista em ordem crescente de matriculas
+# e retorna essa lista em ordem decrescente de matriculas
 def retorna_matriculas_decrescente(alist):
 	n = len(alist)
 	mergeSort(alist, 0, n-1)
